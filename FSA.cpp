@@ -89,8 +89,6 @@ void FSA::update(string input) {
   if (accept()) {
     return;
   }
-
-  /* MY ATTEMPT TO FIX THE CODE */
   else{
       n1 = initial_states[0];
       while((matching == 1) && (k < key.size())){
