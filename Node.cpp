@@ -21,8 +21,7 @@ Node::Node() {
  */
 NodePtr Node::match(string label) {
   NodePtr n;
-  /* MY ATTEMPT TO FIX THE CODE */
-
+  
   for(int i = 0; i < arcs.size(); i++){
       if(arcs[i].label == label){
 	  n = arcs[i].next;
